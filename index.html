@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <!-- java link -->
+    <script type="text/javascript" src="scripts/java.js"></script>
+</head>
+<body>
+
+<!-- this is the first div that will be dragged through the basket -->
+<!-- id is basketball for style -->
+<!-- assigned function drop for when div is dropped-->
+<!-- allows drop event -->
+<!-- assigns image inside of div -->
+<!-- assigns img to functions drag start and dragging -->
+<!-- sets draggable to true and id to drag target-->
+<div id="basketball"  ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/image.jpg" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget"></img>
+</div>
+
+
+<!-- this is the second div that the basketball wants to reach -->
+<!-- sets id to basketball 2 for style -->
+<!-- assings functions drop2, allowDrop, and dragging2 -->
+<div id="basketball2" ondrop="drop2(event)" ondragover="allowDrop(event)" ondrag="dragging2(event)">
+    <!-- paragraph within div that tells user what to do -->
+    <p>Drag threw the basket to make the shot!!</p>
+</div>
+
+<!-- empty paragraph with id text to assign values in script file -->
+<p id="text"></p>
+
+
+</body>
+</html>

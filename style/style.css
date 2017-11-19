@@ -1,0 +1,43 @@
+/*assigns background image to a basketball player shooting basket*/
+/* sets background size to 100%*/
+/* sets all text color to white*/
+body {
+	background-image: url("../images/basketball.jpg");
+	background-size: 100%;
+	color: white;
+}
+
+
+/*sets basketball image width*/
+img {
+	width: 55px;
+}
+
+
+/* sets position to absolute*/
+/* sets position left and top 
+to align with basketball in background img*/
+/* sets width and height of the div (cant be seen)*/
+
+#basketball {
+	position: absolute;
+	left: 433px;
+	top: 66px;
+	width: 50px;
+	height: 55px;
+}
+
+/* sets position to absolute*/
+/* sets left and top to position second div 
+under the basket*/
+/* sets width and height of the second div (cant be seen)*/
+/* set font style and size*/
+#basketball2 {
+	position: absolute;
+	left: 940px;
+	top: 250px;
+	width: 100px;
+	height: 55px;
+	font-style: italic;
+	font-size: 15px;
+}
